@@ -1,0 +1,24 @@
+# Virtual environment
+ai-env/
+venv/
+env/
+.env
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Sensitive files
+*.key
+*.pem
+key.txt
+credentials.json
