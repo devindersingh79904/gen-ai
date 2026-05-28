@@ -1,0 +1,20 @@
+[project]
+name = "langgraph-sandbox"
+version = "0.1.0"
+description = "Small sandbox to test LangGraph locally."
+requires-python = ">=3.10"
+dependencies = [
+  "langgraph",
+  "langchain-openai",
+  "python-dotenv",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["hello_langgraph", "llm_langgraph"]
+
+[tool.ruff]
+line-length = 100
